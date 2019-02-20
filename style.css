@@ -177,14 +177,6 @@ nav {
 
   color: black;
 }
-.carousel-indicators li {
-  cursor: pointer;
-
-  border: 1px solid black;
-}
-.carousel-indicators .active {
-  background-color: black;
-}
 /*SOCIAL MEDIA ICONS*/
 .fa-icons {
   margin: 25rem 0 7rem;
