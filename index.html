@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amado Marquez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navbar-collapse-main"
+          >
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-main">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="activatable">ABOUT</a></li>
+            <li><a href="#projects" class="activatable">PROJECTS</a></li>
+            <li><a href="#contact" class="activatable">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Landing Page Splash -->
+    <div id="particles-js"></div>
+    <div id="home">
+      <div class="landing-text container center-block">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div id="me" class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+            <img src="images/me.jpg" />
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 intro-text">
+            <h1>Hi,<br />I'm Amado.<br />Web <span>Developer.</span></h1>
+            <p>Front End / Back End / Websites and Applications</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects">
+      <div class="tab-buttons">
+        <ul>
+          <!-- vvv Carousel Navigators with Icons vvv-->
+          <li class="icons" data-target="#myCarousel" data-slide-to="0">
+            <i class="fas fa-code"></i>
+          </li>
+          <li class="icons" data-target="#myCarousel" data-slide-to="1">
+            <i class="fas fa-laptop"></i>
+          </li>
+          <li class="icons" data-target="#myCarousel" data-slide-to="2">
+            <i class="fas fa-toolbox"></i>
+          </li>
+          <li class="icons" data-target="#myCarousel" data-slide-to="3">
+            <i class="fas fa-pencil-ruler"></i>
+          </li>
+          <!-- vvv Carousel Navigators with Titles vvv-->
+          <li class="titles" data-target="#myCarousel" data-slide-to="0">
+            LANGUAGES
+          </li>
+          <li class="titles" data-target="#myCarousel" data-slide-to="1">
+            SOFTWARE
+          </li>
+          <li class="titles" data-target="#myCarousel" data-slide-to="2">
+            TOOLS
+          </li>
+          <li class="titles" data-target="#myCarousel" data-slide-to="3">
+            PROJECTS
+          </li>
+        </ul>
+      </div>
+      <div
+        id="myCarousel"
+        class="carousel slide"
+        data-interval="5000"
+        data-ride="carousel"
+      >
+        <!-- Carousel bottom indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="carousel-icons">
+              <i class="fab fa-js"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-java"></i>
+              <i class="fab fa-react"></i>
+            </div>
+            <h1>Languages</h1>
+            <p>
+              I began my journey into programming attempting to create corny 2D
+              stick figure games in ActionScript. But it was when I started
+              delving into web technologies that I became completely captivated.
+              Today I specialize in JavaScript, HTML, CSS, and React. I also
+              regularly study other technologies such as Node, Sass, SQL and
+              more.
+            </p>
+          </div>
+          <div class="item">
+            <div class="carousel-icons">
+              <img src="images/adobe_ps.svg" class="icon_img" />
+              <img src="images/adobe_ai.svg" class="icon_img" />
+            </div>
+            <h1>Software</h1>
+            <p>
+              I've been using Photoshop ever since I can remember. I grew up
+              using a lot of Adobe's software for sheer creativity and now use
+              it for pretty much everything that involves image manipulation,
+              graphic design, or more detailed mockups.
+            </p>
+          </div>
+          <div class="item">
+            <div class="carousel-icons">
+              <img src="images/sublime.png" class="icon_img" />
+              <img
+                src="images/atom.png"
+                class="icon_img"
+                style="width: 150px; height: 150px;"
+              />
+              <img src="images/balsamiq.png" class="icon_img" />
+              <img src="images/eclipse.png" class="icon_img" />
+            </div>
+            <h1>Tools</h1>
+            <p>
+              I have used various IDE's such as Eclipse and Brackets. However,
+              when it comes to text editing tools my weapon of choice is
+              definitely Sublime Text for its lightweight simplicity followed by
+              the amazingly customizable Atom. Additionally, I really ike
+              Balsamiq for creating very quick and basic mockups.
+            </p>
+          </div>
+          <div class="item">
+							<div class="ma2 bg-white center mw600 ba b--black-10 pointer dib" onclick="window.open('https://www.setyourmood.com', '_blank');">
+								<img
+									src="images/sym_splash.png"
+									class="db w-100"
+									alt="Set Your Mood App"
+								/>
+								<div class="pa2 ph3-ns pb3-ns">
+									<div class="dt w-100 mt1">
+										<div class="dtc">
+											<h3>Set Your Mood</h1>
+										</div>
+										<div class="dtc tr">
+											<h2 class="f5 mv0"></h2>
+										</div>
+									</div>
+									<p style="font-size: 0.6em;">
+										A 'mood setter' application written in React.js that generates
+										colored gradients based on a 'mood' selected by the user.
+									</p>
+								</div>
+							</div>
+							<div class="ma2 bg-white center mw600 ba b--black-10 dib" >
+								<img
+									src="images/portfolio_splash.png"
+									class="db w-100"
+									alt="Set Your Mood App"
+								/>
+								<div class="pa2 ph3-ns pb3-ns">
+									<div class="dt w-100 mt1">
+										<div class="dtc">
+											<h3>Developer Porfolio</h1>
+										</div>
+										<div class="dtc tr">
+											<h2 class="f5 mv0"></h2>
+										</div>
+									</div>
+									<p style="font-size: 0.6em;">
+										My online portfolio. Created using HTML5, CSS3, Bootstrap 3 and Vanilla JavaScript. Featuring the Particles-js library by <span class="pointer" onclick="window.open('http://vincentgarreau.com/particles.js/', '_blank');">vincentgarreau</span>.
+									</p>
+								</div>
+							</div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a
+          class="carousel-control left"
+          href="#myCarousel"
+          data-slide="prev"
+          style="background: none"
+        >
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a
+          class="carousel-control right"
+          href="#myCarousel"
+          data-slide="next"
+          style="background: none"
+        >
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+      <div class="fa-icons">
+        <a href="https://codepen.io/mado-is-here/" target="_blank"
+          ><i class="fab fa-codepen"></i
+        ></a>
+        <a href="https://github.com/mado-is-here" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/amadomarquez/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </div>
+    <footer id="contact">
+      <div class="container">
+        <h3>CONTACT</h3>
+        <div class="row">
+          <div class="contact-icons col-sm-6 col-xs-6">
+            <i class="fas fa-envelope"></i>
+            <i class="fab fa-linkedin pointer" onclick="window.open('https://www.linkedin.com/in/amadomarquez/', '_blank')"></i>
+          </div>
+          <div class="contact-details col-sm-6 col-xs-6">
+            <p>amado.m728@gmail.com</p>
+            <p class="pointer" onclick="window.open('https://www.linkedin.com/in/amadomarquez/', '_blank')">/amadomarquez</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
