@@ -2,16 +2,14 @@
 <html>
   <head>
     <title>Amado Marquez</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link
-      rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
     />
     <link
-      rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
+      rel="stylesheet"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,27 +17,31 @@
   </head>
   <body>
     <!-- Navigation -->
-
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <button
-            type="button"
             class="navbar-toggle"
-            data-toggle="collapse"
             data-target="#navbar-collapse-main"
+            data-toggle="collapse"
+            type="button"
           >
             <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse-main">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="activatable">ABOUT</a></li>
-            <li><a href="#projects" class="activatable">PROJECTS</a></li>
-            <li><a href="#contact" class="activatable">CONTACT</a></li>
+            <li>
+              <a class="activatable" href="#">ABOUT</a>
+            </li>
+            <li>
+              <a class="activatable" href="#projects">PROJECTS</a>
+            </li>
+            <li>
+              <a class="activatable" href="#contact">CONTACT</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -50,11 +52,15 @@
       <div class="landing-text container center-block">
         <div class="row">
           <div class="col-lg-3"></div>
-          <div id="me" class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+          <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12" id="me">
             <img src="images/me.jpg" />
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 intro-text">
-            <h1>Hi,<br />I'm Amado.<br />Web <span>Developer.</span></h1>
+            <h1>
+              Hi,<br />
+              I'm Amado.<br />
+              Web <span>Developer.</span>
+            </h1>
             <p>Front End / Back End / Websites and Applications</p>
           </div>
         </div>
@@ -64,54 +70,52 @@
       <div class="tab-buttons">
         <ul>
           <!-- vvv Carousel Navigators with Icons vvv-->
-          <li class="icons" data-target="#myCarousel" data-slide-to="0">
+          <li class="icons" data-slide-to="0" data-target="#myCarousel">
             <i class="fas fa-code"></i>
           </li>
-          <li class="icons" data-target="#myCarousel" data-slide-to="1">
+          <li class="icons" data-slide-to="1" data-target="#myCarousel">
             <i class="fas fa-laptop"></i>
           </li>
-          <li class="icons" data-target="#myCarousel" data-slide-to="2">
+          <li class="icons" data-slide-to="2" data-target="#myCarousel">
             <i class="fas fa-toolbox"></i>
           </li>
-          <li class="icons" data-target="#myCarousel" data-slide-to="3">
+          <li class="icons" data-slide-to="3" data-target="#myCarousel">
             <i class="fas fa-pencil-ruler"></i>
           </li>
           <!-- vvv Carousel Navigators with Titles vvv-->
-          <li class="titles" data-target="#myCarousel" data-slide-to="0">
+          <li class="titles" data-slide-to="0" data-target="#myCarousel">
             LANGUAGES
           </li>
-          <li class="titles" data-target="#myCarousel" data-slide-to="1">
+          <li class="titles" data-slide-to="1" data-target="#myCarousel">
             SOFTWARE
           </li>
-          <li class="titles" data-target="#myCarousel" data-slide-to="2">
+          <li class="titles" data-slide-to="2" data-target="#myCarousel">
             TOOLS
           </li>
-          <li class="titles" data-target="#myCarousel" data-slide-to="3">
+          <li class="titles" data-slide-to="3" data-target="#myCarousel">
             PROJECTS
           </li>
         </ul>
       </div>
       <div
-        id="myCarousel"
         class="carousel slide"
         data-interval="5000"
         data-ride="carousel"
+        id="myCarousel"
       >
         <!-- Carousel bottom indicators -->
         <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li data-slide-to="1" data-target="#myCarousel"></li>
+          <li data-slide-to="2" data-target="#myCarousel"></li>
+          <li data-slide-to="3" data-target="#myCarousel"></li>
         </ol>
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
           <div class="item active">
             <div class="carousel-icons">
-              <i class="fab fa-js"></i>
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-java"></i>
+              <i class="fab fa-js"></i> <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i> <i class="fab fa-java"></i>
               <i class="fab fa-react"></i>
             </div>
             <h1>Languages</h1>
@@ -126,8 +130,8 @@
           </div>
           <div class="item">
             <div class="carousel-icons">
-              <img src="images/adobe_ps.svg" class="icon_img" />
-              <img src="images/adobe_ai.svg" class="icon_img" />
+              <img class="icon_img" src="images/adobe_ps.svg" />
+              <img class="icon_img" src="images/adobe_ai.svg" />
             </div>
             <h1>Software</h1>
             <p>
@@ -139,14 +143,14 @@
           </div>
           <div class="item">
             <div class="carousel-icons">
-              <img src="images/sublime.png" class="icon_img" />
+              <img class="icon_img" src="images/sublime.png" />
               <img
-                src="images/atom.png"
                 class="icon_img"
+                src="images/atom.png"
                 style="width: 150px; height: 150px;"
               />
-              <img src="images/balsamiq.png" class="icon_img" />
-              <img src="images/eclipse.png" class="icon_img" />
+              <img class="icon_img" src="images/balsamiq.png" />
+              <img class="icon_img" src="images/eclipse.png" />
             </div>
             <h1>Tools</h1>
             <p>
@@ -158,66 +162,73 @@
             </p>
           </div>
           <div class="item">
-							<div class="ma2 bg-white center mw600 ba b--black-10 pointer dib" onclick="window.open('https://www.setyourmood.com', '_blank');">
-								<img
-									src="images/sym_splash.png"
-									class="db w-100"
-									alt="Set Your Mood App"
-								/>
-								<div class="pa2 ph3-ns pb3-ns">
-									<div class="dt w-100 mt1">
-										<div class="dtc">
-											<h3>Set Your Mood</h1>
-										</div>
-										<div class="dtc tr">
-											<h2 class="f5 mv0"></h2>
-										</div>
-									</div>
-									<p style="font-size: 0.6em;">
-										A 'mood setter' application written in React.js that generates
-										colored gradients based on a 'mood' selected by the user.
-									</p>
-								</div>
-							</div>
-							<div class="ma2 bg-white center mw600 ba b--black-10 dib" >
-								<img
-									src="images/portfolio_splash.png"
-									class="db w-100"
-									alt="Set Your Mood App"
-								/>
-								<div class="pa2 ph3-ns pb3-ns">
-									<div class="dt w-100 mt1">
-										<div class="dtc">
-											<h3>Developer Porfolio</h1>
-										</div>
-										<div class="dtc tr">
-											<h2 class="f5 mv0"></h2>
-										</div>
-									</div>
-									<p style="font-size: 0.6em;">
-										My online portfolio. Created using HTML5, CSS3, Bootstrap 3 and Vanilla JavaScript. Featuring the Particles-js library by <span class="pointer" onclick="window.open('http://vincentgarreau.com/particles.js/', '_blank');">vincentgarreau</span>.
-									</p>
-								</div>
-							</div>
+            <div
+              class="ma2 bg-white center mw600 ba b--black-10 pointer dib"
+              onclick="window.open('https://www.setyourmood.com', '_blank');"
+            >
+              <img
+                alt="Set Your Mood App"
+                class="db w-100"
+                src="images/sym_splash.png"
+              />
+              <div class="pa2 ph3-ns pb3-ns">
+                <div class="dt w-100 mt1">
+                  <div class="dtc">
+                    <h3>Set Your Mood</h3>
+                  </div>
+                  <div class="dtc tr">
+                    <h2 class="f5 mv0"></h2>
+                  </div>
+                </div>
+                <p style="font-size: 0.6em;">
+                  A 'mood setter' application written in React.js that generates
+                  colored gradients based on a 'mood' selected by the user.
+                </p>
+              </div>
+            </div>
+            <div class="ma2 bg-white center mw600 ba b--black-10 dib">
+              <img
+                alt="Set Your Mood App"
+                class="db w-100"
+                src="images/portfolio_splash.png"
+              />
+              <div class="pa2 ph3-ns pb3-ns">
+                <div class="dt w-100 mt1">
+                  <div class="dtc">
+                    <h3>Developer Porfolio</h3>
+                  </div>
+                  <div class="dtc tr">
+                    <h2 class="f5 mv0"></h2>
+                  </div>
+                </div>
+                <p style="font-size: 0.6em;">
+                  My online portfolio. Created using HTML5, CSS3, Bootstrap 3
+                  and Vanilla JavaScript. Featuring the Particles-js library by
+                  <span
+                    class="pointer"
+                    onclick="window.open('http://vincentgarreau.com/particles.js/', '_blank');"
+                    >vincentgarreau</span
+                  >.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <!-- Carousel controls -->
         <a
           class="carousel-control left"
-          href="#myCarousel"
           data-slide="prev"
+          href="#myCarousel"
           style="background: none"
-        >
-          <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
+          ><span class="glyphicon glyphicon-chevron-left"></span
+        ></a>
         <a
           class="carousel-control right"
-          href="#myCarousel"
           data-slide="next"
+          href="#myCarousel"
           style="background: none"
-        >
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+          ><span class="glyphicon glyphicon-chevron-right"></span
+        ></a>
       </div>
       <div class="fa-icons">
         <a href="https://codepen.io/mado-is-here/" target="_blank"
@@ -237,11 +248,19 @@
         <div class="row">
           <div class="contact-icons col-sm-6 col-xs-6">
             <i class="fas fa-envelope"></i>
-            <i class="fab fa-linkedin pointer" onclick="window.open('https://www.linkedin.com/in/amadomarquez/', '_blank')"></i>
+            <i
+              class="fab fa-linkedin pointer"
+              onclick="window.open('https://www.linkedin.com/in/amadomarquez/', '_blank')"
+            ></i>
           </div>
           <div class="contact-details col-sm-6 col-xs-6">
             <p>amado.m728@gmail.com</p>
-            <p class="pointer" onclick="window.open('https://www.linkedin.com/in/amadomarquez/', '_blank')">/amadomarquez</p>
+            <p
+              class="pointer"
+              onclick="window.open('https://www.linkedin.com/in/amadomarquez/', '_blank')"
+            >
+              /amadomarquez
+            </p>
           </div>
         </div>
       </div>
